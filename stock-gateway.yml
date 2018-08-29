@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    quotes:
+      path: /quotes/**
+      serviceId: stock-summary-client
+    symbols:
+      path: /symbols/**
+      serviceId: stock-symbol-service
